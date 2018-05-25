@@ -267,7 +267,7 @@ export default class Sensor extends React.Component {
           <input type='text' onChange={this.update('chart_min')} id='period' className='col-sm-1' value={this.state.tc.chart_min} readOnly={this.state.readOnly}/>
         </div>
         <div className='row'>
-          <div className='col-sm-3'>Chart Maximun</div>
+          <div className='col-sm-3'>Chart Maximum</div>
           <input type='text' onChange={this.update('chart_max')} id='period' className='col-sm-1' value={this.state.tc.chart_max} readOnly={this.state.readOnly}/>
         </div>
         <div className='row'>
